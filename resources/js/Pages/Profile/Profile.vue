@@ -50,7 +50,13 @@ import {Head, Link} from '@inertiajs/vue3';
 <script>
 export default {
     name: "Profile",
-    props: ['user']
+    props: ['user'],
+    methods: {
+        logout() {
+            axios.post('/logout')
+            window.location.href = '/login'
+        },
+    }
 }
 </script>
 
@@ -58,7 +64,7 @@ export default {
 .login-btn
     width: 100rem
 
-.btn
+.btn-primary
     box-shadow: none !important
-    font-weight: 200
+    font-weight: 300
 </style>
