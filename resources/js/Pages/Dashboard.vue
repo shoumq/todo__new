@@ -13,13 +13,13 @@ import {Head, Link} from '@inertiajs/vue3';
                 <div class="btn btn-danger login-btn" @click="logout">Выйти</div>
                 <div class="header-img">
                     <a href="/">
-                        <img src="images/i1.png" alt="">
+                        <img src="../images/i1.png" alt="">
                     </a>
                     <a href="/">
-                        <img src="images/i2.png" alt="">
+                        <img src="../images/i2.png" alt="">
                     </a>
                     <a href="/">
-                        <img src="images/i3.png" alt="">
+                        <img src="../images/i3.png" alt="">
                     </a>
                 </div>
             </div>
@@ -50,8 +50,8 @@ import {Head, Link} from '@inertiajs/vue3';
                         </div>
 
                         <div class="list-item__flex">
-                            <img src="images/i5.png" alt="" @click="addEditItem(item.id)" style="cursor: pointer">
-                            <img src="images/i4.png" alt="" @click="delItem(item.id)" style="cursor: pointer">
+                            <img src="../images/i5.png" alt="" @click="addEditItem(item.id)" style="cursor: pointer">
+                            <img src="../images/i4.png" alt="" @click="delItem(item.id)" style="cursor: pointer">
                         </div>
                     </div>
                 </div>
