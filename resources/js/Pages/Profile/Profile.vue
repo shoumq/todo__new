@@ -13,13 +13,13 @@ import {Head, Link} from '@inertiajs/vue3';
                 <div class="btn btn-danger login-btn" @click="logout">Выйти</div>
                 <div class="header-img">
                     <a href="/">
-                        <img src="/storage/i1.png" alt="">
+                        <img src="../images/i1.png" alt="">
                     </a>
                     <a href="/">
-                        <img src="/storage/i2.png" alt="">
+                        <img src="../images/i2.png" alt="">
                     </a>
                     <a href="/">
-                        <img src="/storage/i3.png" alt="">
+                        <img src="../images/i3.png" alt="">
                     </a>
                 </div>
             </div>
