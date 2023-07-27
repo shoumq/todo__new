@@ -26,13 +26,13 @@ const submit = () => {
             <div class="header-img__wrapper">
                 <div class="header-img">
                     <a href="/">
-                        <img src="/storage/i1.png" alt="">
+                        <img src="../images/i1.png" alt="">
                     </a>
                     <a href="/">
-                        <img src="/storage/i2.png" alt="">
+                        <img src="../images/i2.png" alt="">
                     </a>
                     <a href="/">
-                        <img src="/storage/i3.png" alt="">
+                        <img src="../images/i3.png" alt="">
                     </a>
                 </div>
             </div>
