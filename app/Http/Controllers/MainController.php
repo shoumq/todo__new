@@ -6,14 +6,16 @@ use App\Models\TODOList;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Inertia\Inertia;
+use Illuminate\Support\Facades\Storage;
 
 
 class MainController extends Controller
 {
     public function index()
     {
+        $user = Auth::user();
         $list = TODOList::latest()->get();
-        return Inertia::render('Dashboard', compact('list'));
+        return Inertia::render('Dashboard', compact('list', 'user'));
     }
 
     public function profile()
